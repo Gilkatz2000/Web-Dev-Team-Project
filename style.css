@@ -23,11 +23,7 @@ body {
 
 #navImg {
     object-fit: fill; 
-<<<<<<< HEAD
-    width: 300px;
-=======
     width: 400px;
->>>>>>> 7b804da4c14c3196e2bbc51ade170bdf198045ca
     height: 100px;
     margin-left: 10px;
     border: 1px solid rgb(255, 255, 255);
@@ -162,7 +158,6 @@ ul {
 li {
     padding-left: 20px;
 }
-<<<<<<< HEAD
 
 /* Below are new classes which are used on the Rides WebPage*/
 .ridesTitle {
@@ -186,5 +181,3 @@ li {
 .rideText {
     text-align: center;
 }
-=======
->>>>>>> 7b804da4c14c3196e2bbc51ade170bdf198045ca
