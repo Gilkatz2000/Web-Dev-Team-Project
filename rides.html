@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rides</title>
-</head>
-<body>
-    <form>
-        <input type="button" value="Go back!" onclick="history.back()">
-    </form>
+    <title>rides</title>
+	<link rel="stylesheet" href="style.css">
+<body>      
+    <header class="header">
+    <a href="homepage.html"><img class="homeImage" src="images/HB.jpg" alt="Home"></a>
+    <h1 id="parkName">GamePRO!</h1>  
+    </header>
+
+	<h2 class="ridesTitle"> Our Different Rides</h2>
+ 	<div id="ridesParentContainer">
+        <!--This is the first row of images in the container-->
+        <div class="ridesImgRowContainer">
+            <div>
+                <img src="images/Mario_Kart.jpg" alt="Mario Kart" class="ridesImg">
+                <div class="rideText">Mario Kart</div>
+            </div>
+                
+            <div>
+                <img src="images/Tomb_Raider.jpg" alt="Tomb Raider" class="ridesImg">
+                <div class="rideText">Tomb Raider</div>
+            </div>
+        </div>
+
+        <!--This is the second row of images in the container-->
+        <div class="ridesImgRowContainer">
+            <div>
+                <img src="images/Final_Fantasy.jpg" alt="Final Fanatsy" class="ridesImg">
+                <div class="rideText">Final Fantasy</div>
+            </div>
+                
+            <div>
+                <img src="images/Sonic_Spinball.jpg" alt="Sonic Spinball" class="ridesImg">
+                <div class="rideText">Sonic Spinball</div>
+            </div> 
+        </div>
+        
+        <!--This is the third row of images in the container-->
+        <div class="ridesImgRowContainer">
+            <div>
+                <img src="images/Ninja_Turtles_Shell_Shock.jpg" alt="Ninja Turtles Shell Shock" class="ridesImg">
+                <div class="rideText">Ninja Turtles Shell Shock</div>
+            </div> 
+            
+            <div>
+                <img src="images/Tak_Attack.jpg" alt="Tak Attack" class="ridesImg">
+                <div class="rideText">Tak Attack</div>
+            </div>
+        </div>    
+    </div> 
 </body>
 </html>
