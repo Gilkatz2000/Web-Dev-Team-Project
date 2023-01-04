@@ -2,6 +2,8 @@
 body {
     background-color: rgb(34, 42, 53);
     color: white;
+    /* Constistant styling */
+    overflow-y: scroll;
 }
 
 .header {
