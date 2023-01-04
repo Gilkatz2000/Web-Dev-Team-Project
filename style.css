@@ -18,7 +18,6 @@ body {
 #parkName {
     font-size: 40px;
     margin:auto;
-    transform: translateX(-20px);
 }
 
 #navLinks {
