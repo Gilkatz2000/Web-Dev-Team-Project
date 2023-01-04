@@ -11,6 +11,10 @@ body {
     margin: 0 -5px;
 }
 
+.homeImage {
+    position: fixed;
+}
+
 #parkName {
     font-size: 40px;
     margin:auto;
@@ -195,5 +199,48 @@ li {
 }
 
 .rideText {
+    text-align: center;
+}
+
+@keyframes spinFly {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(100%, -100%) rotate(360deg);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+
+@keyframes growingFade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.spinFlyImg {
+    animation: spinFly 5s linear infinite;
+}
+
+.growingFadeImg {
+    animation: growingFade 5s linear infinite;
+    margin: 7%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
