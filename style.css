@@ -133,6 +133,15 @@ figure {
     height: 300px;
 }
 
+.foodItems {
+    display: block;
+    justify-content: center;
+}
+
+#location {
+    margin-top: 100px; 
+}
+
 #parkMap {
     display: block;
     margin-left: auto;
