@@ -133,7 +133,7 @@ figure {
     height: 300px;
 }
 
-.foodItems {
+#foodItems {
     display: block;
     justify-content: center;
 }
@@ -164,7 +164,7 @@ img {
     grid-column-gap: 80px;
 }
 
-  .cell {
+.cell {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,6 +180,9 @@ img {
     width: 380px;
     height: 250px;
 }
+
+#onlinePay {
+    margin-left: 285px;}
 
 ul {
     margin-left: 265px;
