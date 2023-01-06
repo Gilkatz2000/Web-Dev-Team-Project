@@ -2,8 +2,14 @@
 body {
     background-color: rgb(34, 42, 53);
     color: white;
-    /* Constistant styling */
+    /* Consistant styling */
     overflow-y: scroll;
+}
+
+/* Set default styling to all text elements */
+* {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .header {
@@ -150,11 +156,22 @@ figure {
     height: auto;
 }
 
+#pricesHeader {
+    padding-top: 50px; 
+    font-size: 30px;
+}
+
 img {
     width: 50px;
     height: 50px;
     /* Less 90s look */
     border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.05s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.01);
 }
   
 .grid {
